@@ -36,7 +36,7 @@
     if (self) {
         self.modulesRegistry = [@{} mutableCopy];
         
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onRNReload) name:RCTBridgeWillReloadNotification object:nil];
+        // [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onRNReload) name:RCTBridgeWillReloadNotification object:nil];
     }
     return self;
 }
